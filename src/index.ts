@@ -1,6 +1,6 @@
 import { createRoute } from "@hono/zod-openapi";
-import { ParamsSchema, ReqDescription } from "../inputs";
-import { UserSchema, ResDescriptionSchema } from "../outputs";
+import { ParamsSchema, ReqDescription } from "./inputs";
+import { UserSchema, ResDescriptionSchema } from "./outputs";
 import { OpenAPIHono } from "@hono/zod-openapi";
 
 const getUserRoute = createRoute({
